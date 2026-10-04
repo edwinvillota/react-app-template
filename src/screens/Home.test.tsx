@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Home from './Home';
 
-describe('App', () => {
+describe('Home', () => {
 	it('renders the main heading', () => {
-		render(<App />);
+		render(<Home />);
 		expect(
 			screen.getByRole('heading', {
 				name: /React Vite TypeScript Biome Template/i,
@@ -12,7 +12,7 @@ describe('App', () => {
 	});
 
 	it('renders the Features section', () => {
-		render(<App />);
+		render(<Home />);
 		expect(
 			screen.getByRole('heading', { name: /Features/i }),
 		).toBeInTheDocument();
@@ -30,7 +30,7 @@ describe('App', () => {
 	});
 
 	it('renders the Getting Started section', () => {
-		render(<App />);
+		render(<Home />);
 		expect(
 			screen.getByRole('heading', { name: /Getting Started/i }),
 		).toBeInTheDocument();
@@ -42,7 +42,7 @@ describe('App', () => {
 	});
 
 	it('renders the Scripts section', () => {
-		render(<App />);
+		render(<Home />);
 		expect(
 			screen.getByRole('heading', { name: /Scripts/i }),
 		).toBeInTheDocument();
@@ -54,7 +54,7 @@ describe('App', () => {
 	});
 
 	it('renders the Project Structure section', () => {
-		render(<App />);
+		render(<Home />);
 		expect(
 			screen.getByRole('heading', { name: /Project Structure/i }),
 		).toBeInTheDocument();

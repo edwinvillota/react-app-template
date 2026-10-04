@@ -1,4 +1,4 @@
-const App = () => {
+const Home = () => {
 	return (
 		<div className="min-h-screen bg-gray-950 text-gray-100 font-sans px-4 py-8">
 			<div className="max-w-2xl mx-auto">
@@ -133,4 +133,4 @@ const App = () => {
 	);
 };
 
-export default App;
+export default Home;
