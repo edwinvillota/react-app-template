@@ -24,13 +24,12 @@
 		"noUncheckedSideEffectImports": true,
 
 		/* Aliases */
-		"baseUrl": "src",
 		"paths": {
-			"@/*": ["./*"]
+			"@/*": ["./src/*"]
 		},
 
 		/* Vitest */
-		"types": ["vitest/globals", "@testing-library/jest-dom"]
+		"types": ["vitest/globals", "@testing-library/jest-dom/vitest"]
 	},
 	"include": ["src"]
 }
